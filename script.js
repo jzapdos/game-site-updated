@@ -66,6 +66,12 @@
       description: "Blast the alien fleet before they reach the ground. A classic reimagined.",
       link: "https://jzapdos.github.io/ai/"
     },
+    {
+      name: "Tetris",
+      creator: "Justin M.",
+      description: "The classic game of Tetris, but made by a student.",
+      link: "https://jzapdos.github.io/tetris/"
+    }
   ];
   
   /* ============================================================
