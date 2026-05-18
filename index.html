@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FTHS Game Hub</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- SIDEBAR -->
+  <nav class="sidebar" id="sidebar">
+    <div class="sidebar-logo">
+      <span class="logo-icon">🕹️</span>
+      <span class="logo-text">GAME HUB</span>
+    </div>
+    <div class="sidebar-links" id="sidebarLinks">
+      <!-- Populated by script.js -->
+    </div>
+    <div class="sidebar-footer">FTHS Class Projects</div>
+  </nav>
+
+  <!-- HAMBURGER (mobile) -->
+  <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+    <span></span><span></span><span></span>
+  </button>
+
+  <!-- MAIN -->
+  <main class="main">
+    <header class="hero">
+      <div class="hero-bg"></div>
+      <div class="hero-content">
+        <p class="hero-eyebrow">FTHS Student Creations</p>
+        <h1 class="hero-title">Welcome to the<br><span class="neon">Game Hub</span></h1>
+        <p class="hero-sub">Explore and play games built by students. Each card below is a fully original project. Click Play to jump in.</p>
+        <div class="hero-stats" id="heroStats">
+          <div class="stat"><span class="stat-num" id="statCount">0</span><span class="stat-label">Games</span></div>
+          <div class="stat-divider"></div>
+          <div class="stat"><span class="stat-num" id="statDevs">0</span><span class="stat-label">Developers</span></div>
+        </div>
+      </div>
+      <div class="hero-art" aria-hidden="true">
+        <div class="pixel-grid"></div>
+      </div>
+    </header>
+
+    <!-- SEARCH / FILTER -->
+    <div class="toolbar">
+      <div class="search-wrap">
+        <svg class="search-icon" viewBox="0 0 20 20" fill="none"><circle cx="8.5" cy="8.5" r="5.5" stroke="currentColor" stroke-width="1.8"/><path d="M13.5 13.5L17 17" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>
+        <input class="search-input" id="searchInput" type="text" placeholder="Search games...">
+      </div>
+    </div>
+
+    <!-- GAME GRID -->
+    <section class="games-grid" id="games">
+      <!-- Cards injected by script.js -->
+    </section>
+
+    <div class="empty-state" id="emptyState" hidden>
+      <span>👾</span>
+      <p>No games match your search.</p>
+    </div>
+  </main>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
