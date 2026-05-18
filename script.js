@@ -66,12 +66,6 @@
       description: "Blast the alien fleet before they reach the ground. A classic reimagined.",
       link: "https://jzapdos.github.io/ai/"
     },
-    {
-      name: "Aethermoor",
-      creator: "Justin M.",
-      description: "A fully-fledged RPG adventure. Explore, battle, and uncover the mysteries of Aethermoor.",
-      link: "https://jzapdos.github.io/game/"
-    }
   ];
   
   /* ============================================================
