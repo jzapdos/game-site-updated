@@ -68,7 +68,7 @@
     },
     {
       name: "Tetris",
-      creator: "Justin M.",     jzapdos.github.io/car-thing/
+      creator: "Justin M.",
       description: "The classic game of Tetris, but made by a student.",
       link: "https://jzapdos.github.io/tetris/"
     },
@@ -76,7 +76,7 @@
       name: "Car Race",
       creator: "Justin M.",
       description: "Not actually a race, just drive for as long as you can",
-      link: "jzapdos.github.io/car-thing/"
+      link: "https://jzapdos.github.io/car-thing/"
     }
   ];
   
